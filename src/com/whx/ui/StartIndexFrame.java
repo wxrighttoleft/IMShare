@@ -6,8 +6,8 @@ public class StartIndexFrame extends Frame {
 
 	private static final long serialVersionUID = 3550972842695616566L;
 
-	public StartIndexFrame(String str){
-		super(str);
+	public StartIndexFrame(){
+		super();
 	}
 
 }
