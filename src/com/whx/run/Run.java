@@ -3,7 +3,7 @@ package com.whx.run;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.whx.ui.StartIndexFrame;
+import com.whx.ui.LoginFrame;
 
 public class Run {
 
@@ -15,8 +15,8 @@ public class Run {
 	 */
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		StartIndexFrame sif = (StartIndexFrame)context.getBean("startIndexFrame");
-		sif.setVisible(true);
+		LoginFrame loginFrmae = (LoginFrame)context.getBean("loginFrame");
+		loginFrmae.setVisible(true);
 	}
 
 }
