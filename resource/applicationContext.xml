@@ -5,7 +5,7 @@
 
 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 	
-	<bean id="startIndexFrame" class="com.whx.ui.StartIndexFrame">	</bean>
-	<bean id="loginFrame" class="com.whx.ui.LoginFrame"></bean>
+	<bean id="startIndexFrame" class="com.whx.ui.StartIndexFrame" scope="singleton"></bean>
+	<bean id="loginFrame" class="com.whx.ui.LoginFrame" scope="singleton"></bean>
 
 </beans>
